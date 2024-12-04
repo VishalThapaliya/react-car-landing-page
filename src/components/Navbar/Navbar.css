@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 100px;
+
+    .navbar-logo {
+        position: relative;
+        width: 250px;
+        height: 50px;
+
+        img {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 8rem;
+        list-style: none;
+        color: #755f5f;
+        font-size: 18px;
+
+        li:hover {
+            cursor: pointer;
+            color: orangered;
+            text-decoration: underline;
+        }
+
+        .nav-contact {
+            border-radius: 50px;
+            padding: 10px 40px;
+            background-color: #fff;
+            color: #262626;
+        }
+    }
+}
